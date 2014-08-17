@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Count Divs</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="tb-code">HTML Code</label>
+    <textarea rows="30" cols="70" id="tb-code" placeholder="Enter code here..."></textarea>
+    <a href="#" class="js-console-btn" onclick="onButtonClick()">Count divs</a> 
+	<br />
+
+    <div id="js-console"></div>				 
+	<script src="scripts/js-console.js"></script>
+    <script type="text/javascript">
+
+        function onButtonClick() {
+            var htmlCode = jsConsole.read("#tb-code");
+            jsConsole.writeLine(countDivs(htmlCode));
+        }
+
+        function countDivs(htmlCode) {
+            var parser = new DOMParser();
+            var newDocument = parser.parseFromString(htmlCode, "text/html");
+            var divCount = newDocument.getElementsByTagName("div").length;
+
+            return divCount;
+        }
+    </script>
+</body>
+</html>

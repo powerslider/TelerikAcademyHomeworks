@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Count Words in Text</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="tb-text">Text</label>
+    <textarea rows="5" cols="25" id="tb-text" placeholder="Enter text here..."></textarea>
+
+    <label for="tb-word">Word</label>
+	<input id="tb-word" type="text" class="js-console-input" />
+	<a href="#" class="js-console-btn" onclick="onButtonClick()">Find</a>
+	<br />
+
+    <div id="js-console"></div>				 
+	<script src="scripts/js-console.js"></script>
+    <script type="text/javascript">
+
+        function onButtonClick() {
+            var text = jsConsole.read("#tb-text");
+            text = text.split(" ");
+            var word = jsConsole.read("#tb-word");
+            jsConsole.writeLine(countOccurences(text, word, false));
+        }
+
+        function countOccurences(text, word, isCaseSensitive) {
+            function countCaseInsensitive(word) { 
+                var upperCase = word.toUpperCase();
+                var lowerCase = word.toLowerCase();
+               
+                var count = 0;
+
+                for (var i = 0; i < text.length; i++) {
+                    if (text[i] === lowerCase || text[i] === upperCase) {
+                        count++;
+                    } else {
+                        var newWord = text[i].toLowerCase();
+                        if (newWord === lowerCase) {
+                            count++;
+                        }
+                    }    
+                }
+
+                return count;
+            }
+
+            function countCaseSensitive(word) {
+                var count = 0;
+                for (var i = 0; i < text.length; i++) {
+                    if (text[i] === word) {
+                        count++;
+                    }
+                }
+
+                return count;
+            }
+
+            switch (arguments.length) {
+                case 2:
+                    return countCaseInsensitive(char);
+                case 3:
+                    return isCaseSensitive ? countCaseSensitive(word) : countCaseInsensitive(word);
+            }
+        }
+    </script>
+</body>
+</html>

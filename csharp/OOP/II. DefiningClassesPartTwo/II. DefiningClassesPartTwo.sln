@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. GenericList", "2. GenericList\2. GenericList.csproj", "{DD535DEA-9EB2-4E24-A035-A452B04EE736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. GenericMatrix", "3. GenericMatrix\3. GenericMatrix.csproj", "{D5465749-5036-4B2B-B963-97AFAD3ED6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.PointsAndPaths", "1.PointsAndPaths\1.PointsAndPaths.csproj", "{4D799C94-4CBC-4488-9362-2461CDA1BC42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD535DEA-9EB2-4E24-A035-A452B04EE736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD535DEA-9EB2-4E24-A035-A452B04EE736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD535DEA-9EB2-4E24-A035-A452B04EE736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD535DEA-9EB2-4E24-A035-A452B04EE736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5465749-5036-4B2B-B963-97AFAD3ED6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5465749-5036-4B2B-B963-97AFAD3ED6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5465749-5036-4B2B-B963-97AFAD3ED6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5465749-5036-4B2B-B963-97AFAD3ED6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D799C94-4CBC-4488-9362-2461CDA1BC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D799C94-4CBC-4488-9362-2461CDA1BC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D799C94-4CBC-4488-9362-2461CDA1BC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D799C94-4CBC-4488-9362-2461CDA1BC42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

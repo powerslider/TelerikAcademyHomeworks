@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Last Digit As Word</title>
+    <link href="scripts/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="tb-number">Number</label>
+	<input id="tb-number" type="text" class="js-console-input" />
+	<a href="#" class="js-console-btn" onclick="onButtonClick()">Get word</a>
+	<br />
+
+    <div id="js-console"></div>				 
+	<script src="scripts/js-console.js"></script>
+    <script type="text/javascript">
+
+        function onButtonClick() {
+            var number = jsConsole.readInteger("#tb-number");
+            jsConsole.writeLine(showLastDigitAsWord(number, 0));
+        }
+
+        function showLastDigitAsWord(number, position) {
+            var numString = number + "";
+            debugger;
+            var lastDigit = Math.floor(number / Math.pow(10, position) % 10);
+            if (typeof lastDigit == "number") {
+                 switch (lastDigit) {
+                    case 0:
+                        return "zero";
+                    case 1:
+                        return "one";
+                    case 2:
+                        return "two";
+                    case 3:
+                        return "three";
+                    case 4:
+                        return "four";
+                    case 5:
+                        return "five";
+                    case 6:
+                        return "six";
+                    case 7:
+                        return "seven";
+                    case 8:
+                        return "eight";
+                    case 9:
+                        return "nine";
+                }
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.MatrixFilling", "1.MatrixFilling\1.MatrixFilling.csproj", "{38614C31-41B3-47EF-A03C-C2BD10634B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.MaximalSumOfPlatform", "2.MaximalSumOfPlatform\2.MaximalSumOfPlatform.csproj", "{A03FBEAE-430B-4C3C-9C2D-8E024200281B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.LongestSequenceOfEqualStringsInMatrix", "3.LongestSequenceOfEqualStringsInMatrix\3.LongestSequenceOfEqualStringsInMatrix.csproj", "{BA87955F-4B0D-4DC3-B0AC-628404147F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.ArrayOfStringsSort", "5.ArrayOfStringsSort\5.ArrayOfStringsSort.csproj", "{F4BE6E1C-C844-4F9D-AE33-667433C46DC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.SortAndBinarySearch", "4.SortAndBinarySearch\4.SortAndBinarySearch.csproj", "{36125833-2415-453E-AA92-5D0342A18017}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38614C31-41B3-47EF-A03C-C2BD10634B5B}.Debug|x86.ActiveCfg = Debug|x86
+		{38614C31-41B3-47EF-A03C-C2BD10634B5B}.Debug|x86.Build.0 = Debug|x86
+		{38614C31-41B3-47EF-A03C-C2BD10634B5B}.Release|x86.ActiveCfg = Release|x86
+		{38614C31-41B3-47EF-A03C-C2BD10634B5B}.Release|x86.Build.0 = Release|x86
+		{A03FBEAE-430B-4C3C-9C2D-8E024200281B}.Debug|x86.ActiveCfg = Debug|x86
+		{A03FBEAE-430B-4C3C-9C2D-8E024200281B}.Debug|x86.Build.0 = Debug|x86
+		{A03FBEAE-430B-4C3C-9C2D-8E024200281B}.Release|x86.ActiveCfg = Release|x86
+		{A03FBEAE-430B-4C3C-9C2D-8E024200281B}.Release|x86.Build.0 = Release|x86
+		{BA87955F-4B0D-4DC3-B0AC-628404147F36}.Debug|x86.ActiveCfg = Debug|x86
+		{BA87955F-4B0D-4DC3-B0AC-628404147F36}.Debug|x86.Build.0 = Debug|x86
+		{BA87955F-4B0D-4DC3-B0AC-628404147F36}.Release|x86.ActiveCfg = Release|x86
+		{BA87955F-4B0D-4DC3-B0AC-628404147F36}.Release|x86.Build.0 = Release|x86
+		{F4BE6E1C-C844-4F9D-AE33-667433C46DC0}.Debug|x86.ActiveCfg = Debug|x86
+		{F4BE6E1C-C844-4F9D-AE33-667433C46DC0}.Debug|x86.Build.0 = Debug|x86
+		{F4BE6E1C-C844-4F9D-AE33-667433C46DC0}.Release|x86.ActiveCfg = Release|x86
+		{F4BE6E1C-C844-4F9D-AE33-667433C46DC0}.Release|x86.Build.0 = Release|x86
+		{36125833-2415-453E-AA92-5D0342A18017}.Debug|x86.ActiveCfg = Debug|x86
+		{36125833-2415-453E-AA92-5D0342A18017}.Debug|x86.Build.0 = Debug|x86
+		{36125833-2415-453E-AA92-5D0342A18017}.Release|x86.ActiveCfg = Release|x86
+		{36125833-2415-453E-AA92-5D0342A18017}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
